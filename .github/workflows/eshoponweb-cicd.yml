@@ -5,11 +5,11 @@ name: eShopOnWeb Build and Test
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
-  RESOURCE-GROUP: rg-az400-eshoponweb-NAME
-  LOCATION: westeurope
+  RESOURCE-GROUP: VisualStudioOnline-AE5DD588DB5C45E382CD6D7A86242ABD
+  LOCATION: eastus
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
-  SUBSCRIPTION-ID: YOUR-SUBS-ID
-  WEBAPP-NAME: az400-webapp-NAME
+  SUBSCRIPTION-ID: 815c9c62-29c3-4602-9f03-9867831784b1
+  WEBAPP-NAME: az400-webapp-Loyiso
 
 
 jobs:
